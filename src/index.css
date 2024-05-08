@@ -1,0 +1,33 @@
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.car-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+}
+
+.car-details {
+  padding: 10px;
+}
+
+.car-details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.car-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+

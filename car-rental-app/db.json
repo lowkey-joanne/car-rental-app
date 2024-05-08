@@ -5,80 +5,90 @@
         "make": "Toyota",
         "model": "Camry",
         "year": 2022,
-        "licensePlate": "ABC1234",
-        "availability": true
+        "price": 50000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 2,
         "make": "Honda",
         "model": "Accord",
         "year": 2021,
-        "licensePlate": "DEF5678",
-        "availability": true
+        "price": 45000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 3,
         "make": "Ford",
         "model": "Mustang",
         "year": 2020,
-        "licensePlate": "GHI3456",
-        "availability": false
+        "price": 60000,
+        "transmission": "Manual",
+        "seats": 4
       },
       {
         "id": 4,
         "make": "Chevrolet",
         "model": "Impala",
         "year": 2019,
-        "licensePlate": "JKL7890",
-        "availability": true
+        "price": 35000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 5,
         "make": "Nissan",
         "model": "Altima",
         "year": 2018,
-        "licensePlate": "MNO1234",
-        "availability": false
+        "price": 32000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 6,
         "make": "BMW",
         "model": "X5",
         "year": 2022,
-        "licensePlate": "PQR5678",
-        "availability": true
+        "price": 70000,
+        "transmission": "Automatic",
+        "seats": 7
       },
       {
         "id": 7,
         "make": "Mercedes-Benz",
         "model": "C-Class",
         "year": 2021,
-        "licensePlate": "STU9101",
-        "availability": true
+        "price": 65000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 8,
         "make": "Audi",
         "model": "A4",
         "year": 2020,
-        "licensePlate": "VWX2345",
-        "availability": false
+        "price": 55000,
+        "transmission": "Manual",
+        "seats": 5
       },
       {
         "id": 9,
         "make": "Hyundai",
         "model": "Elantra",
         "year": 2019,
-        "licensePlate": "YZA6789",
-        "availability": true
+        "price": 28000,
+        "transmission": "Automatic",
+        "seats": 5
       },
       {
         "id": 10,
         "make": "Kia",
         "model": "Sorento",
         "year": 2022,
-        "licensePlate": "BCD1122",
-        "availability": true
+        "price": 45000,
+        "transmission": "Automatic",
+        "seats": 7
       }
     ]
   }

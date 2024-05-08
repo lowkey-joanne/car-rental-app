@@ -29,7 +29,7 @@ function CarRentalPage() {
     <div>
       <h1>CAR RENTAL</h1>
       {selectedCar && (
-        <button onClick={handleBack}>Back to Cars</button>
+        <button className='BTC' onClick={handleBack}>Back to Cars</button>
       )}
       {!selectedCar ? (
         <CarList cars={cars} onCarSelect={handleCarSelect} />

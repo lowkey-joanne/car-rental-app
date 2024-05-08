@@ -1,0 +1,60 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "image": "https://example.com/toyota_camry.jpg",
+        "category": "sedan",
+        "seater": 5,
+        "transmission": "auto",
+        "description": "The Toyota Camry is a reliable and comfortable sedan suitable for both city driving and long trips.",
+        "price": "KSH 5,000 per day"
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "CR-V",
+        "image": "https://example.com/honda_cr_v.jpg",
+        "category": "suv",
+        "seater": 5,
+        "transmission": "auto",
+        "description": "The Honda CR-V is a spacious and versatile SUV, perfect for family vacations or outdoor adventures.",
+        "price": "KSH 6,500 per day"
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Ranger",
+        "image": "https://example.com/ford_ranger.jpg",
+        "category": "pickup",
+        "seater": 5,
+        "transmission": "manual",
+        "description": "The Ford Ranger is a rugged and powerful pickup truck, ideal for hauling cargo or tackling off-road trails.",
+        "price": "KSH 7,200 per day"
+      },
+      {
+        "id": 4,
+        "make": "BMW",
+        "model": "4 Series",
+        "image": "https://example.com/bmw_4_series.jpg",
+        "category": "coupe",
+        "seater": 4,
+        "transmission": "auto",
+        "description": "The BMW 4 Series is a sleek and sporty coupe, offering a thrilling driving experience and luxurious comfort.",
+        "price": "KSH 9,800 per day"
+      },
+      {
+        "id": 5,
+        "make": "Mercedes-Benz",
+        "model": "V-Class",
+        "image": "https://example.com/mercedes_v_class.jpg",
+        "category": "van",
+        "seater": 8,
+        "transmission": "auto",
+        "description": "The Mercedes-Benz V-Class is a spacious and luxurious van, perfect for group travel or executive transport.",
+        "price": "KSH 12,000 per day"
+      }
+    ]
+  }
+  

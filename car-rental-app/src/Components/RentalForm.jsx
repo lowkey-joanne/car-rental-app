@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
 
-function RentalForm() {
+function HireForm() {
   const [customerName, setCustomerName] = useState('');
   const [carId, setCarId] = useState('');
   const [rentalStart, setRentalStart] = useState('');
   const [rentalEnd, setRentalEnd] = useState('');
-  const [rentals, setRentals] = useState([]); 
+  const [rentals, setRentals] = useState([]); // Local state to store rental data
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const newRental = { customerName, carId, rentalStart, rentalEnd };
 
+    // Save the new rental in local state
     setRentals((prevRentals) => [...prevRentals, newRental]);
 
+    // Clear form inputs after submission
     setCustomerName('');
     setCarId('');
     setRentalStart('');
     setRentalEnd('');
 
+    // Log data or show a message
     console.log('Rental submitted successfully:', newRental);
     alert('Rental submitted successfully!');
   };
@@ -39,7 +42,7 @@ function RentalForm() {
         </label>
         <button type="submit">Submit Rental</button>
       </form>
-
+      
       <h2>Current Rentals</h2>
       <ul>
         {rentals.map((rental, index) => (
@@ -52,4 +55,4 @@ function RentalForm() {
   );
 }
 
-export default RentalForm;
+export default HireForm;

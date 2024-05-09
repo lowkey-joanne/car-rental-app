@@ -1,0 +1,95 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "price": 50000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2021,
+        "price": 45000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2020,
+        "price": 60000,
+        "transmission": "Manual",
+        "seats": 4
+      },
+      {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Impala",
+        "year": 2019,
+        "price": 35000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 5,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2018,
+        "price": 32000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 6,
+        "make": "BMW",
+        "model": "X5",
+        "year": 2022,
+        "price": 70000,
+        "transmission": "Automatic",
+        "seats": 7
+      },
+      {
+        "id": 7,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2021,
+        "price": 65000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 8,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "price": 55000,
+        "transmission": "Manual",
+        "seats": 5
+      },
+      {
+        "id": 9,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2019,
+        "price": 28000,
+        "transmission": "Automatic",
+        "seats": 5
+      },
+      {
+        "id": 10,
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2022,
+        "price": 45000,
+        "transmission": "Automatic",
+        "seats": 7
+      }
+    ]
+  }
+  

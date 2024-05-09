@@ -1,0 +1,73 @@
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.car-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car-card img {
+  width: 100%;
+  height: auto;
+}
+.car-details {
+  padding: 10px;
+}
+.car-details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.car-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+/* carDetails css */
+.car-details {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car-details img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.car-details h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.car-details p {
+  margin-bottom: 5px;
+}
+.car-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+.car-details button:hover {
+  background-color: #0056b3;
+}
+.BTC{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

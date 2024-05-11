@@ -1,8 +1,9 @@
-import { Route, Routes } from 'react-router-dom';
-import Home from '../ pages/Home';
-import NavBar from './NavBar'
+import { Route, Routes } from "react-router-dom";
+import Home from "../ pages/Home";
+import NavBar from "./NavBar"
 import CarDetails from "./CarDetails";
 import CarList from "./CarList"
+import React, { useState } from 'react';
 
 
 const App = () => {

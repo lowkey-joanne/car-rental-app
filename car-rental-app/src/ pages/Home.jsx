@@ -1,10 +1,10 @@
-import CarListing from "../components/CarListing"
+import CarList from "../components/CarList"
 
 const Home = ({blogs}) => {
   return (
     <div className='page-container'>
         <h1>car rental</h1>
-        <CarListing blogs={blogs}/>
+        <CarList blogs={blogs}/>
     </div>
   )
 }

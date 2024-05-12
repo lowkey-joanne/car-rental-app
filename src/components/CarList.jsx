@@ -9,7 +9,7 @@ function CarList({ cars, onCarSelect }) {
           <div className="car-details">
             <h2>{car.make} {car.model}</h2>
             <p>Category: {car.category}</p>
-            <p>{car.price}</p>
+            <p>Price: {car.price}</p>
           </div>
         </div>
       ))}

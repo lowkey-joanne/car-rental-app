@@ -11,7 +11,7 @@ function CarRentalPage() {
   const [showRentalForm, setShowRentalForm] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3000/cars')
+    fetch('http://localhost:3005/cars')
       .then(response => response.json())
       .then(data => setCars(data))
       .catch(error => console.error('Error fetching data:', error));

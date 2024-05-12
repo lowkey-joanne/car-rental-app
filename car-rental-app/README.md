@@ -1,8 +1,8 @@
-Car Rental App
-JavaScript Console Application that displays a car rental program where the user can view the cars and hire any availabe car from the company 
+# Car-Rental-App
+
+JavaScript Console Application that displays a car rental program where the user can view the cars and hire any availabe car from the company
 
 By Joanne Mbula,Andrew Kipruto & David Maina
-
 
 Description
 This is a simple JavaScript Console Application that displays a car rental program where the user can view the cars availabe from the company select the car and the selected car is diplayed with frether description of the car and an option to hire whre if its selected the user then fills in his/her details in the rental form and the car is displayed and the with the the start and end date for the hire agreement
@@ -14,7 +14,7 @@ Access to the internet.
 Installation Process
 Clone this repository using
 
-  git clone (https://github.com/lowkey-joanne/car-rental-app.git)
+  git clone (<https://github.com/lowkey-joanne/car-rental-app.git>)
 or by downloading a ZIP file of the code.
 
 The repository, if downloaded as a .zip file will need to be extracted to your preferred location.

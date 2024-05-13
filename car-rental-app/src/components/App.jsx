@@ -3,8 +3,7 @@ import Home from "../ pages/Home";
 import NavBar from "./NavBar"
 import CarDetails from "./CarDetails";
 import CarList from "./CarList"
-import React, { useState } from 'react';
-
+import React, { useEffect, useState } from "react";
 
 const App = () => {
   const [car, setCars] = useState([]);

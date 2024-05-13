@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import CarList from './CarList';
-import CarDetails from "components/CarDetails";
+import CarList from './CarList'
+import CarDetails from './CarDetail';
+import Navbar from './NavBar';
+import SortBar from './SortBar';
+import RentalForm from './RentalForm';
 
 function CarRentalPage() {
   const [cars, setCars] = useState([]);
   const [selectedCar, setSelectedCar] = useState(null);
+  const [showRentalForm, setShowRentalForm] = useState(false);
 
   useEffect(() => {
     fetch('db.json')
@@ -18,26 +22,35 @@ function CarRentalPage() {
   };
 
   const handleHire = (car) => {
-    console.log('Hiring:', car.make, car.model);
+    setSelectedCar(car);
+    setShowRentalForm(true);
   };
 
   const handleBack = () => {
     setSelectedCar(null);
+    setShowRentalForm(false); 
   };
 
   return (
-    <div>
+<div>
       <h1>CAR RENTAL</h1>
-      {selectedCar && (
+      <Navbar />
+      <SortBar />
+      {selectedCar && !showRentalForm && ( 
         <button className='BTC' onClick={handleBack}>Back to Cars</button>
       )}
-      {!selectedCar ? (
+      {!selectedCar && !showRentalForm ? ( 
         <CarList cars={cars} onCarSelect={handleCarSelect} />
       ) : (
-        <CarDetails car={selectedCar} onHire={handleHire} />
+        <div>
+          {showRentalForm ? (
+            <RentalForm car={selectedCar} onCancel={handleBack} /> 
+          ) : (
+            <CarDetails car={selectedCar} onHire={handleHire} />
+          )}
+        </div>
       )}
     </div>
   );
 }
-
 export default CarRentalPage;

@@ -3,7 +3,11 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
+h1{
+  color: #960d8f;
+  font-family: "Times New Roman", Times, serif ;
+  font-weight: bolder;
+}
 header {
   background-color: #649e78;
   color: #fff;

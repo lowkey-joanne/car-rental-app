@@ -61,7 +61,7 @@ function CarRentalPage() {
   
   return (
     <div>
-      <h1>CAR RENTAL</h1>
+      <h1>CAR RENTAL WEBSITE</h1>
       <NavBar />
       <SortBar setCars={setCars} setFilters={setFilters} handleSort={handleSort} />
       {selectedCar && !showRentalForm && (

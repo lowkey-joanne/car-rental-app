@@ -1,9 +1,57 @@
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSBE6FBQtNjlhUNAxRpyjl0-Itk3nxqhlXQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h1{
+  color: #960d8f;
+  font-family: "Times New Roman", Times, serif ;
+  font-weight: bolder;
+}
+header {
+  background-color: #649e78;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  height: 50px;
+}
+
+img {
+  width:40%;
+  height:20%;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+nav a.active {
+  color: #ffc107;
+}
+
+
 .car-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .car-card {
+  background-color: #ffffff;
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -13,23 +61,28 @@
   margin: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .car-card img {
   width: 100%;
   height: auto;
 }
+
 .car-details {
   padding: 10px;
 }
+
 .car-details h2 {
   margin: 0;
   font-size: 18px;
 }
+
 .car-details p {
   margin: 5px 0;
   font-size: 14px;
 }
-/* carDetails css */
-.car-details {
+
+.car-detail {
+  background-color: #ffffff;
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -39,19 +92,19 @@
   margin: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.car-details img {
+.car-detail img {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 10px;
 }
-.car-details h2 {
+.car-detail h2 {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
-.car-details p {
+.car-detail p {
   margin-bottom: 5px;
 }
-.car-details button {
+.car-detail button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -60,14 +113,40 @@
   cursor: pointer;
   margin-left: 35%;
 }
-.car-details button:hover {
-  background-color: #0056b3;
-}
 .BTC{
-  background-color: #007bff;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
 }
+
+.sort-bar {
+  background-color: #dd5151;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.sort-bar label {
+  margin-right: 10px;
+}
+
+.sort-bar select {
+  margin-right: 20px;
+}
+
+.sort-bar button {
+  padding: 8px 16px;
+  background-color: #ffd92f;
+  color: #0011ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

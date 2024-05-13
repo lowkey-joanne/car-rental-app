@@ -6,10 +6,10 @@ function CarList({ cars, onCarSelect }) {
       {cars.map((car) => (
         <div key={car.id} className="car-card" onClick={() => onCarSelect(car)}>
           <img src={car.image} alt={`${car.make} ${car.model}`} />
-          <div className="car-detail">
+          <div className="car-details">
             <h2>{car.make} {car.model}</h2>
             <p>Category: {car.category}</p>
-            <p>{car.price}</p>
+            <p>Price: {car.price}</p>
           </div>
         </div>
       ))}

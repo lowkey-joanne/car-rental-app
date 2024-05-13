@@ -8,7 +8,7 @@ function CarDetails({ car, onHire }) {
   };
   
   return (
-    <div className="car-details">
+    <div className="car-detail">
       <img src={car.image} alt={`${car.make} ${car.model}`} />
       <h2>{car.make} {car.model}</h2>
       <p>Category: {car.category}</p>
